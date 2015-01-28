@@ -1,6 +1,6 @@
 {
     "name": "Goertzel",
-    "version": "0.0.1",
+    "version": “0.0.2”,
     "author": “David Cranor <david.cranor@gmail.com>”,
     "license": “Public Domain”,
     "description": "Port of Jacob Rosenthal's Goertzel library"
