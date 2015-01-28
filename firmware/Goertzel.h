@@ -20,7 +20,7 @@
 #define Goertzel_h
 
 // include types & constants of Wiring core API
-#include "Arduino.h"
+#include "application.h"
 
 #define MAXN 200
 #define ADCCENTER 512

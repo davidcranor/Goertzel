@@ -29,14 +29,14 @@ float Q2;
 
 int testData[MAXN];
 
-Goertzel::Goertzel(float TARGET_FREQUENCY, float N)
-{
-	#if F_CPU == 16000000L
-		Goertzel(TARGET_FREQUENCY, N, 8900.0);
-	#else 
-		Goertzel(TARGET_FREQUENCY, N, 4400.0);
-	#endif
-}
+// Goertzel::Goertzel(float TARGET_FREQUENCY, float N)
+// {
+// 	#if F_CPU == 16000000L
+// 		Goertzel(TARGET_FREQUENCY, N, 8900.0);
+// 	#else 
+// 		Goertzel(TARGET_FREQUENCY, N, 4400.0);
+// 	#endif
+// }
 
 Goertzel::Goertzel(float TARGET_FREQUENCY, float N, float SAMPLING_FREQUENCY)
 {
